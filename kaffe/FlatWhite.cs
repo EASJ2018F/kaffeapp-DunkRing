@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kaffe
 {
-    class FlatWhite : Kaffe , Imælk
+    public class FlatWhite : Kaffe , Imælk
     {
 
         public FlatWhite()
