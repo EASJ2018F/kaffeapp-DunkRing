@@ -34,5 +34,19 @@ namespace kaffeTests
             Assert.AreEqual("Mild", styrke);
 
         }
+
+        [TestMethod]
+        public void TestFlatWhiteMlMælk()
+        {
+            //Arrange
+            var flatWhite = new FlatWhite();
+
+            //Act
+            int MlMælk = flatWhite.MlMælk();
+
+            //assert
+            Assert.AreEqual(160, MlMælk);
+
+        }
     }
 }
